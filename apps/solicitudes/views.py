@@ -32,25 +32,25 @@ def solicitud(id=None):
              			"valor": "BLACK"
             }, {
                 "nombre": "TAMAÑO",
-             			"valor": "LARGE"
+             			"valor": "MEDIUM"
             }, {
                 "nombre": "MODELO",
              			"valor": "SOL SLEEVE"
             }
             ],
             "ProductoImagen": [],
-            "stock": 8,
+            "stock": 6,
             "padre": 0,
             "accion": 0,
             "codigo": "",
-            "codigo_interno": "00200376",
-            "codigo_interno_padre": "00200190",
+            "codigo_interno": "00200375",
+            "codigo_interno_padre": "00200191",
             "categoria": "SLEEVES",
             "impuesto": 18,
-            "codigo_barra": "00200376",
-            "nombre": "HJ SLEEVES SOL SLEEVE UNISEX BLACK LARGE",
-            "nombre_es": "HJ SLEEVES SOL SLEEVE UNISEX BLACK LARGE",
-            "nombre_en": "HJ SLEEVES SOL SLEEVE UNISEX BLACK LARGE",
+            "codigo_barra": "00200375",
+            "nombre": "HJ SLEEVES SOL SLEEVE UNISEX BLACK MEDIUM",
+            "nombre_es": "HJ SLEEVES SOL SLEEVE UNISEX BLACK MEDIUM",
+            "nombre_en": "HJ SLEEVES SOL SLEEVE UNISEX BLACK MEDIUM",
             "descripcion_corta_es": "El par de mangas \u003ci\u003eSol Sleeve\u003c/i\u003e protegen contra la exposición excesiva al sol que daña la piel. Con una calificación UPF de 50+, estas mangas bloquean el 98% de los rayos UV-A / UV-B. Probado de acuerdo con los estándares AATCC 183. Sin mencionar que este gran producto también elimina la humedad y es perfecto para múltiples actividades en exteriores. ¡La tabla de tallas para damas y hombres por igual!",
             "descripcion_corta_en": "The \u003ci\u003eSol Sleeve\u003c/i\u003e pair protect yourself from over exposure of skin damaging sun. UPF rating of 50+, these Sol Sleeves block 98% of UV-A/UV-B rays. Tested according to AATCC 183 standards. Not to mention this great product also wicks away moisture and is perfect for multi-outdoor activities. The Sizing chart for ladies and men alike!",
             "descripcion_es": "\u003cb\u003eHJ Sol Sleeves\u003c/b\u003e\r\n\u003cbr\u003e\u003c/br\u003e\r\nEl par de mangas \u003ci\u003eSol Sleeve\u003c/i\u003e protegen contra la exposición excesiva al sol que daña la piel. Con una calificación UPF de 50+, estas mangas bloquean el 98% de los rayos UV-A / UV-B. Probado de acuerdo con los estándares AATCC 183. Sin mencionar que este gran producto también elimina la humedad y es perfecto para múltiples actividades en exteriores. ¡La tabla de tallas para damas y hombres por igual!\r\n",
@@ -68,6 +68,7 @@ def solicitud(id=None):
             "fin_venta": "\/Date(-62135582400000)\/",
             "estado": 3
         }
+	
 
 	response = requests.post(url, data=json.dumps(datos), headers=headers)
 
