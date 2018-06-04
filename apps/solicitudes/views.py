@@ -15,7 +15,8 @@ def solicitud(id=None):
         'Content-Type': 'application/json',
        
     }
-	url = 'http://mundogolf.com.do/api/v1/crear-producto.php'
+	url = 'https://mundogolf.net/api/v1/actualizar-producto.php'
+    #url = 'https://mundogolf.net/api/v1/crear-producto.php'
 	#image_file = open(BASE_DIR+'/solicitudes/image.jpg', 'rb')	
 	#image_read = image_file.read()
 	#img = base64.encodestring(image_read)
@@ -29,28 +30,28 @@ def solicitud(id=None):
              			"valor": "UNISEX"
             }, {
                 "nombre": "COLOR",
-             			"valor": "BLACK"
+             			"valor": "WHITE"
             }, {
                 "nombre": "TAMAÑO",
-             			"valor": "MEDIUM"
+             			"valor": "LARGE"
             }, {
                 "nombre": "MODELO",
              			"valor": "SOL SLEEVE"
             }
             ],
             "ProductoImagen": [],
-            "stock": 6,
+            "stock": 8,
             "padre": 0,
             "accion": 0,
             "codigo": "",
-            "codigo_interno": "00200375",
-            "codigo_interno_padre": "00200191",
+            "codigo_interno": "002003762",
+            "codigo_interno_padre": "00200190",
             "categoria": "SLEEVES",
             "impuesto": 18,
-            "codigo_barra": "00200375",
-            "nombre": "HJ SLEEVES SOL SLEEVE UNISEX BLACK MEDIUM",
-            "nombre_es": "HJ SLEEVES SOL SLEEVE UNISEX BLACK MEDIUM",
-            "nombre_en": "HJ SLEEVES SOL SLEEVE UNISEX BLACK MEDIUM",
+            "codigo_barra": "00200376",
+            "nombre": "HJ SLEEVES SOL SLEEVE UNISEX BLACK LARGE",
+            "nombre_es": "HJ SLEEVES SOL SLEEVE UNISEX BLACK LARGE",
+            "nombre_en": "HJ SLEEVES SOL SLEEVE UNISEX BLACK LARGE",
             "descripcion_corta_es": "El par de mangas \u003ci\u003eSol Sleeve\u003c/i\u003e protegen contra la exposición excesiva al sol que daña la piel. Con una calificación UPF de 50+, estas mangas bloquean el 98% de los rayos UV-A / UV-B. Probado de acuerdo con los estándares AATCC 183. Sin mencionar que este gran producto también elimina la humedad y es perfecto para múltiples actividades en exteriores. ¡La tabla de tallas para damas y hombres por igual!",
             "descripcion_corta_en": "The \u003ci\u003eSol Sleeve\u003c/i\u003e pair protect yourself from over exposure of skin damaging sun. UPF rating of 50+, these Sol Sleeves block 98% of UV-A/UV-B rays. Tested according to AATCC 183 standards. Not to mention this great product also wicks away moisture and is perfect for multi-outdoor activities. The Sizing chart for ladies and men alike!",
             "descripcion_es": "\u003cb\u003eHJ Sol Sleeves\u003c/b\u003e\r\n\u003cbr\u003e\u003c/br\u003e\r\nEl par de mangas \u003ci\u003eSol Sleeve\u003c/i\u003e protegen contra la exposición excesiva al sol que daña la piel. Con una calificación UPF de 50+, estas mangas bloquean el 98% de los rayos UV-A / UV-B. Probado de acuerdo con los estándares AATCC 183. Sin mencionar que este gran producto también elimina la humedad y es perfecto para múltiples actividades en exteriores. ¡La tabla de tallas para damas y hombres por igual!\r\n",
@@ -70,6 +71,6 @@ def solicitud(id=None):
         }
 	
 
-	response = requests.post(url, data=json.dumps(datos), headers=headers)
+	response = requests.put(url, data=json.dumps(datos), headers=headers)
 
 	return HttpResponse(response)
