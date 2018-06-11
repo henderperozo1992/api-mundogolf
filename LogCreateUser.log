@@ -1,0 +1,273 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 0
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 0
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 0
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 0
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 0
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 0
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 0
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 0
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 0
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 0
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 0
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 0
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+ERROR:django.request:Internal Server Error: /solicitud/
+Traceback (most recent call last):
+  File "/home/hender/Documentos/MundoGolf/mundogolfApiTest/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/hender/Documentos/MundoGolf/mundogolfApiTest/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hender/Documentos/MundoGolf/mundogolfApiTest/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hender/Documentos/MundoGolf/mundogolfApiTest/src/apps/solicitudes/views.py", line 15, in solicitud
+    print(file)
+NameError: name 'file' is not defined
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 1211
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 500 0
+DEBUG:root:<Response [500]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 137
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 198
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 198
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 198
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): mundogolf.net
+WARNING:django.request:Not Found: /robots.txt
+DEBUG:urllib3.connectionpool:https://mundogolf.net:443 "POST /api/v1/crear-producto.php HTTP/1.1" 200 None
+DEBUG:root:<Response [200]>
+WARNING:django.request:Not Found: /robots.txt
